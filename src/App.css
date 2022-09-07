@@ -1,0 +1,8 @@
+.header {
+    background-image: url(/src/img/header.webp);
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-size: cover;
+    background-attachment: fixed; 
+    width: 100%;
+}
