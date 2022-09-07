@@ -7,6 +7,7 @@ import Footer from '../pages/Footer'
 // import NotFound from "./pages/NotFound"
 // import "./App.css"
 import NotFound from "./pages/NotFound"
+import Products from "./pages/Products"
 import "./App.css"
 
 
