@@ -7,13 +7,13 @@ import Home from "./pages/Home"
 // import "./App.css"
 import NotFound from "./pages/NotFound"
 import Products from "./pages/Products"
+import Navbar from "./components/Navbar"
 import "./App.css"
 
 
 const App = () => {
   return (
     <BrowserRouter>
-        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />

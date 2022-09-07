@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Container from "../components/Container"
 import Header from "../components/Header"
 import Footer from '../components/Footer'
+import Navbar from "../components/Navbar"
 
 const Home = () => {
     const [users, setUsers] = useState([])
@@ -9,6 +10,7 @@ const Home = () => {
   
     return (
       <>
+        <Navbar/>
         <Header/>
         <Container>
       <main className=" ">
