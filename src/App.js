@@ -3,20 +3,21 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import React from "react"
 import Home from "./pages/Home"
-// import NotFound from "./pages/NotFound"
+import Container from "./components/Container"
+import NotFound from "./pages/NotFound"
 // import "./App.css"
 
 
 const App = () => {
   return (
     <BrowserRouter>
-      {/* <Container> */}
+      <Container>
         {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      {/* </Container> */}
+      </Container>
     </BrowserRouter>
   )
 }
