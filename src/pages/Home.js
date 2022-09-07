@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Container from "../components/Container"
 import Header from "../components/Header"
 import Footer from '../components/Footer'
+import Shipment from "../components/Shipment"
 
 const Home = () => {
     const [users, setUsers] = useState([])
@@ -60,6 +61,7 @@ const Home = () => {
       </main>
       </Container>
       <Footer/>
+      <Shipment/>
       </>
     )
   }
