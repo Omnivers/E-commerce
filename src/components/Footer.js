@@ -4,11 +4,12 @@ import Credit from '../img/image2.svg'
 const Footer = () => {
     return (
         <>
-         <p className = "place-content-center py-4">contact@shopname.com</p>
-        <div className='flex-wrap px-13'>
-        <img src={Credit} alt="logo credit" />
-        <p className='place-content-center'>2022</p>
+        <div className='grid grid-cols-none place-content-center  px-13'>
+            <p className = "ml-28">contact@shopname.com</p>
+            <img src={Credit} alt="logo credit" />
+            <p className=' ml-44 content-center' >2022</p>
         </div>
+        
         </>
     )
 }
