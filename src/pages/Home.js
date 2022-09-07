@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Container from "../components/Container"
 import Header from "../components/Header"
+import Footer from '../pages/Footer'
 
 const Home = () => {
     const [users, setUsers] = useState([])

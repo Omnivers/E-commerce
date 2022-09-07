@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import React from "react"
 import Home from "./pages/Home"
-import Footer from '../pages/Footer'
 // import NotFound from "./pages/NotFound"
 // import "./App.css"
 import NotFound from "./pages/NotFound"
