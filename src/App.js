@@ -1,10 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-function App() {
+
+import React from "react"
+import Home from "./pages/Home"
+// import NotFound from "./pages/NotFound"
+// import "./App.css"
+
+
+const App = () => {
   return (
-    <h1 className='text-blue-600' >Hello World !</h1>
-  );
+    <BrowserRouter>
+      {/* <Container> */}
+        {/* <Header /> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
+        </Routes>
+      {/* </Container> */}
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
