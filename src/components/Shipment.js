@@ -1,4 +1,4 @@
-import img from "../img/Vectors.pnj";
+import img from "../img/Vector.png";
 import img2 from "../img/image2.svg";
 
 const Shipment = () => {
